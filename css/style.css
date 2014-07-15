@@ -1,0 +1,226 @@
+*{
+margin: 0;
+padding: 0;
+}
+
+@font-face {
+	font-family: 'CenturyGothic';
+	src: url('../font/CenturyGothic.eot?') format('eot'), 
+	     url('../font/CenturyGothic.woff') format('woff'), 
+	     url('../font/CenturyGothic.ttf')  format('truetype'),
+	     url('../font/CenturyGothic.svg#CenturyGothic') format('svg');
+		 }
+
+@font-face {
+	font-family: 'CenturyGothic-Bold';
+	src: url('../CenturyGothic-Bold.eot?') format('eot'), 
+	     url('../CenturyGothic-Bold.woff') format('woff'), 
+	     url('../CenturyGothic-Bold.ttf')  format('truetype'),
+	     url('../CenturyGothic-Bold.svg#CenturyGothic-Bold') format('svg');
+}
+
+body{
+color: #fff;
+font-family: "CenturyGothic", Helvetica, Verdana;
+
+}
+
+header{
+background:#fff;
+height:250px;
+width:100%;
+}
+
+#img_logo{
+display:block;
+margin: 0 auto;
+max-width:460px;
+min-width:50px;
+width:100%;
+}
+/*
+#banner{
+background: url(../image/background.jpg);
+height:350px;
+}
+*/
+
+#contenido_baner{
+background:  url(../image/background.jpg)
+}
+
+.flexbox{
+	background:  url(../image/background.jpg);
+	display: box;
+	box-orient: horizontal;
+	margin:0 auto;
+	max-width:850px;
+	min-width:250px;
+	
+	display: -webkit-box; /* paquete para distintos navegadores */
+	-webkit-box-orient: horizontal;
+	
+	display: -moz-box;	/*paquete exclusivo para mozilla*/
+	-moz-box-orient: horizontal; 
+}
+
+.flexbox > div{
+	box-flex:1;
+	-webkit-box-flex:1;
+	-moz-box-flex:1;
+	}
+	
+#cont_01{ /* contenedor de texto "navega..." */
+padding:5px;
+margin:5px;
+
+}
+	#cont_01 h1 {
+	font-family: "CenturyGothic-Bold", Helvetica, Verdana;
+	font-size: 48px;
+	color:#dcdcdc;
+	margin-top:80px;
+		}
+	#cont_01 h4{
+	font-size: 17px;
+	color: #0097d9;
+	margin-top: 15px;
+	}
+#cont_02{  /* imagen "CPU feliz"*/
+padding:5px;
+margin:5px;
+}
+	#img_002{
+	display:block;
+	max-width:382px;
+	min-width:150px;
+	width:100%;
+	}
+
+
+aside{
+background: url(../image/background_contenido.jpg);
+height:480px;
+width:100%;
+}
+	#contenedor_aside
+	{
+	margin:0 auto;
+	width:880px;
+	height:460px;
+	
+	
+		
+	}
+		#contenedor_aside h3 /* subtitulos de navegadores */
+		{
+		font-size: 20px;
+		color: #9b2238;
+		font-family: "CenturyGothic-Bold", Helvetica, Verdana;
+		margin-top: 5px;
+		text-align:center;
+		}
+		
+		#contenedor_aside h5 /* texto contenido*/
+		{
+		font-size: 14px;
+		color: #525a5d;
+		font-family: "CenturyGothic", Helvetica, Verdana;
+		margin-top: 5px;
+		text-align:center;
+		}
+		
+		#contenedor_aside h4 /* Ultima version*/
+		{
+		text-align:center;
+		color: #d02c4a;
+		font-family: "CenturyGothic-Bold", Helvetica, Verdana;
+		}
+div#uno
+{
+background-color: #eeeeee;
+border-radius: 10px;
+width:145px;
+height:400px;
+float:left;
+margin:40px 10px 0 30px;
+}
+	
+	#nav_03
+	{margin-top:15px;
+	}
+	#visita
+	{margin: 2px 7px;	
+	}
+
+div#dos
+{
+background-color: #eeeeee;
+border-radius: 10px;
+width:145px;
+height:400px;
+float:left;
+margin:40px 10px 0 10px;
+}
+	#nav_05
+	{margin-top:15px;
+	}
+	
+div#tres
+{
+background-color: #eeeeee;
+border-radius: 10px;
+width:145px;
+height:400px;
+float:left;
+margin:40px 10px 0 10px;}
+	
+	#nav_07
+	{margin-top:15px;
+	}
+
+div#cuatro
+{
+background-color: #eeeeee;
+border-radius: 10px;
+width:145px;
+height:400px;
+float:left;
+margin:40px 10px 0 10px;}
+
+	#nav_09
+	{margin-top:15px;
+	}
+	
+div#cinco
+{
+background-color: #eeeeee;
+border-radius: 10px;
+width:145px;
+height:400px;
+float:left;
+margin:40px 10px 0 10px;}
+	
+	#nav_11
+		{margin-top:15px;
+	}	
+
+footer{
+background: url(../image/background_footer.jpg);
+height:45px;
+}
+	#contenido_footer
+		{
+			margin: 0 auto;
+			width:950px;
+				
+		}
+/*	#img_icon
+	{margin-top:5px;
+	}
+	*/
+
+		.texto_img{
+  	vertical-align: middle;
+	
+		}
